@@ -1,5 +1,5 @@
-@main def hello: Unit = 
-  println("Hello world!")
-  println(msg)
+@main def main: Unit = 
+  val app = App()
+  app.run()
 
-def msg = "I was compiled by Scala 3. :)"
+
