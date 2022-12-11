@@ -1,3 +1,3 @@
 @main def main: Unit = 
-  val app = BetaRegistry.app
+  val app = BetaRegistry.cliApp
   app.run()

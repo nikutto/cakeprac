@@ -1,2 +1,5 @@
 trait Components extends ConfigurationComponent
-    with AppComponent
+    with InteractorComponent
+    with ServiceComponent
+    with YoutubeApiClientComponent
+    with CliAppComponent
